@@ -42,3 +42,32 @@ console.log(emp1)
 console.log(emp2)
 console.log(emp3)
 console.log(emp3.empCode)
+
+class Customer {
+  Cname : string
+  CBalanace : number
+
+  constructor (name : string , balance : number){
+    this.Cname = name
+    this.CBalanace = balance
+  }
+
+  deposit(amount : number): void {
+    this.CBalanace += amount
+    console.log(`disposit amount:${amount}`)
+    console.log(`disposit amount:${this.CBalanace}`)    
+  }
+
+  
+  withdraw(amount : number): void {
+    this.CBalanace -= amount
+    console.log(`disposit amount:${amount}`)
+    console.log(`Current balance:${this.CBalanace}`)    
+  }
+}
+
+let c1 = new Customer ("Aadarsh", 3000)
+console.log(c1)
+console.log(c1.withdraw(200))
+console.log(c1.deposit(1000))
+
