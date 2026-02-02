@@ -34,11 +34,3 @@ for (const index in arr) { //in for kys or indices and of for data
     console.log(index);
     console.log(arr[index]);
 }
-//while
-var i1 = 0;
-while (i1 <= 10) {
-    if (i1 % 2 === 0) {
-        console.log(`${i1} is even`);
-    }
-    i1++;
-}
