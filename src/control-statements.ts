@@ -37,3 +37,34 @@ for (const index in arr){ //in for kys or indices and of for data
     console.log(index)
     console.log(arr[index])
 }
+
+
+let ch : string = '@';
+switch (ch) {
+ case '!':
+ console.log("Hello!");
+ break;
+ case '@':
+ console.log("How are you?");
+ break;
+ case '#':
+ console.log("Let us code.");
+ break;
+
+ case '$':
+ console.log("Reading articles is fun!");
+ break;
+ case '%':
+ console.log("We should work hard!");
+ break;
+ case '^':
+ console.log("This is a switch.");
+ break;
+
+case '&':
+ console.log("TypeScript");
+ break;
+ default:
+ console.log("We are in default case");
+ break;
+}
